@@ -10,6 +10,7 @@
 # else:
 #      print('Menor de idade')
 
+# ------------------------------------------------------
 
 # Estrutura de pontuação
      
@@ -22,3 +23,14 @@ elif pontos >= 50:
      print('Bom desemp')
 else:
      print('Pode melhorar')
+     
+
+# operadores AND e OR
+     
+usuario = input('nome: ')
+senha = input('Senha: ')
+
+if usuario == 'admin' and senha == 'senha1234':
+     print('Acesso autorizado')
+else:
+     print('Acesso negado')
